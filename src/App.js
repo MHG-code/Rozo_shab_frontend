@@ -29,13 +29,13 @@ function App() {
         
         <Route exact path="/profile" element={<Profile/>} />
         <Route exact path="/team" element={<Team/>} />
-        <Route exact path="dairy" element={<Dairy/>} />
+        <Route exact path="/dairy/*" element={<Dairy/>} />
 
         
 
         {/* dairy Routes */}
 
-        <Route exact path="dairy/Namaz" element={<><Dairy/>  <Namaz/> </> } />
+        {/* <Route exact path="dairy/Namaz" element={<Namaz/>} /> */}
         
       </Routes >
     </>
