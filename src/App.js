@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './styles/navbar.css';
 import './styles/sub_navbar.css';
-import './styles/main.css';
+import './styles/child_body.css';
 
 import Navbar from './components/navbar';
 
