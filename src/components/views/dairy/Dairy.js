@@ -11,7 +11,6 @@ import { Route, Routes} from 'react-router-dom';
 
 
 const Dairy = props => {
-   
   return (
       <>
         <Nav />
