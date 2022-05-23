@@ -1,13 +1,9 @@
 // import logo from './logo.svg';
 import './styles/navbar.css';
 import './styles/sub_navbar.css';
-<<<<<<< HEAD
 import './styles/main.css';
 import './styles/section.css';
 import './styles/signup.css';
-=======
-import './styles/child_body.css';
->>>>>>> b5727971d8ffd41a0f3de1d51916dd3d6905d626
 
 import Navbar from './components/navbar';
 
