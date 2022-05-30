@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './styles/navbar.css';
 import './styles/sub_navbar.css';
+import './styles/child_body.css';
+import './styles/table.css';
+import './styles/radio_button.css';
 import './styles/main.css';
 import './styles/section.css';
 import './styles/signup.css';
