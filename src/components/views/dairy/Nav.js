@@ -2,7 +2,7 @@ import React from  "react";
 import {NavLink} from 'react-router-dom';
 const Nav = (props) => {
     return (
-       
+        // <div className="layout">
             <nav className="sub-nav">
                 <ul className="sub-links">
                     <NavLink to="Namaz" className="sub-nav-links" ><li >Namaz</li> <div className="bottom"></div> </NavLink>
@@ -12,6 +12,7 @@ const Nav = (props) => {
                     <NavLink to="meetings" className="sub-nav-links"><li >Meetings</li> <div className="bottom"></div></NavLink>
                 </ul>
             </nav>
+        // </div>
       
     )
     }

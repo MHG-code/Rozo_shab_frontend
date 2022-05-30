@@ -1,0 +1,50 @@
+#table_radio_input{
+    width: 6rem;
+    text-align: center;
+    }
+    
+    .table_view input {
+        /* position: fixed;
+        top: -3.5em;
+        left: -1.5em; */
+        display: none;
+      }
+    
+      .table_view label {
+        cursor: pointer;
+        display: block;
+        font-weight: bold;
+        color:  #7a8787;
+        text-shadow: 0 0.1em 0.1em rgba(0, 0, 0, 0.2);
+        transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+      }
+      .table_view label:not(:last-of-type) {
+        margin-bottom: 1.5em;
+      }
+      .table_view label span {
+        box-shadow: 0 0 0 0.2em currentColor inset, 0 0.2em 0.2em rgba(15, 15, 15, 0.349), 0 0.3em 0.2em rgba(255, 255, 255, 0) inset;
+        display: inline-block;
+        margin-right: 0.5em;
+        vertical-align: bottom;
+        width: 1.5em;
+        height: 1.5em;
+        transition: transform 0.2s cubic-bezier(0.5, 0, 0.5, 2), box-shadow 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95), color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+      }
+      
+      .table_view label span
+     {
+        border-radius: 50%;
+      }
+      
+      .table_view input:checked + label, input:checked + label span
+      {
+        color: #ffffff00
+      }  
+    
+      .table_view input:checked + label, .table_view input:checked + label span {
+        transition-delay: 0.1s;
+      }
+      .table_view input:checked + label span {
+        transform: scale(1.2);
+        background-color: #0fa8e4
+      }
